@@ -1,0 +1,4 @@
+import numpy
+n=int(input("请输入行数："))
+a=numpy.random.randint(0,10,size=(n,3))
+print(a)
